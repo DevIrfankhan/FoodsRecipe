@@ -9,6 +9,10 @@ const Navbar = () => {
         <button>Search</button>
       </div>
       <div>Add Food</div>
+      <div>Add Food</div>
+      <div>Add Food</div>
+      <div>Add Food</div>
+      <div>Add Food</div>
     </div>
   )
 }
