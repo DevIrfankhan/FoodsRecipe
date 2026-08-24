@@ -19,7 +19,7 @@ const Recipe = () => {
     },[id])
    
   return (
-      <div className=" flex flex-col md:flex-row h-screen m-10  items-center justify-center ">
+      <div className=" flex flex-col md:flex-row  m-10 pt-20 items-center justify-center ">
           <div className=" ">
               
           <img

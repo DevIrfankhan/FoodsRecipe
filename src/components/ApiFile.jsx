@@ -3,11 +3,11 @@ import ApiResult from "./ApiResult"
 // import Recipe from "./Recipe"
 
 
-const ApiFile = () => {
+const ApiFile = ({search}) => {
     const [meals, setMeals] = useState([])
     useEffect(() => {
         
-        let URL = "https://www.themealdb.com/api/json/v1/1/search.php?s=chicken"
+        let URL = `https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`
         const FetchApi = async () => {
             let res = await fetch(URL)
             console.log(res)
@@ -16,7 +16,7 @@ const ApiFile = () => {
             setMeals(pro.meals)
         }
         FetchApi()
-    },[])
+    },[search])
     console.log(meals)
   return (
       <div>
