@@ -9,9 +9,9 @@ function App() {
   const [search,setSearch] = useState("chicken")
   return (
     <>
-<div className="flex flex-col h-full bg-amber-950  border-2">
+<div className="flex flex-col h-full">
       <Navbar inputValue={ setSearch} />
-        <div className="flex-1 pt-20 border-2 h-full bg-amber-300">
+        <div className="flex-1 pt-25 pb-20 h-full bg-[#FFF8E1]">
 
 
       <Routes>
