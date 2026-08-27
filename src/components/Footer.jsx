@@ -26,8 +26,35 @@ const Footer = () => {
           <span> {listInfo.location} </span>
         </div>
       </div>
-      <div className=" bg-amber-500 w-70 h-50 border-2" ></div>
-      <div className=" bg-amber-500 w-70 h-50 border-2" ></div>
+      <div className=" flex items-start justify-center flex-col  w-70 h-50 border-2  "   >
+        <div className="flex gap-3" >
+          <Phone size={20} className="text-[#F59E0B]" />
+          <span> {listInfo.contact} </span>
+        </div>
+        <div className="flex gap-3" >
+          <Mail size={20}  className="text-[#F59E0B]"/>
+          <span> {listInfo.email} </span>
+        </div>
+        <div className="flex gap-3" >
+          < MapPin size={20} className="text-[#F59E0B]" />
+          <span> {listInfo.location} </span>
+        </div>
+      </div>
+      <div className=" flex items-start justify-center flex-col  w-70 h-50 border-2  "   >
+        <div className="flex gap-3" >
+          <Phone size={20} className="text-[#F59E0B]" />
+          <span> {listInfo.contact} </span>
+        </div>
+        <div className="flex gap-3" >
+          <Mail size={20}  className="text-[#F59E0B]"/>
+          <span> {listInfo.email} </span>
+        </div>
+        <div className="flex gap-3" >
+          < MapPin size={20} className="text-[#F59E0B]" />
+          <span> {listInfo.location} </span>
+        </div>
+      </div>
+     
     </div>
   )
 }
