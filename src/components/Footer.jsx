@@ -53,6 +53,10 @@ const Footer = () => {
           < MapPin size={20} className="text-[#F59E0B]" />
           <span> {listInfo.location} </span>
         </div>
+        <div className="flex gap-3" >
+          < MapPin size={20} className="text-[#F59E0B]" />
+          <span> {listInfo.location} </span>
+        </div>
       
        
        
