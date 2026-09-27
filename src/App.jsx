@@ -12,7 +12,7 @@ function App() {
       <div className="flex flex-col h-full">
         
       <Navbar inputValue={ setSearch} />
-        <div className="flex-1 pt-25 pb-20 h-full bg-[#FFF8E1]">
+        <div className="flex-1 pt-25 pb-20 h-full bg-[#e8e8e8]">
 
 
       <Routes>
