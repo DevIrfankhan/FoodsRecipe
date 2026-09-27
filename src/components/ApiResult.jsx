@@ -10,6 +10,11 @@ const ApiResult = ({ meal }) => {
                 <div className=" h-96 w-70 border-2 rounded flex items-center flex-col ">
                     <img src={list.strMealThumb} alt="" className="h-70 w-70 rounded" />
                     <h1>{list.strMeal}</h1>
+                    <div className="text-4xl">
+                        <i className="fa-solid fa-house"></i>
+                        <i className="fa-solid fa-phone"></i>
+                        <i className="fa-brands fa-github"></i>
+                    </div>
                     <button onClick={()=>navigate(`/recipe/${list.idMeal}`)}>Rrecips</button>
                 </div>
             ))}

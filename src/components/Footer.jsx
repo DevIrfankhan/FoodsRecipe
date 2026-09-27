@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
         {/* box3 */}
         <div>
-          <i class="fa-solid fa-circle-arrow-up"></i>
+          <i class="fa-solid fa-arrow-up-long"></i>
           <button onClick={scrollTop} className="outline-0 border-0 cursor-pointer"> top</button>
 
 

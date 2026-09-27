@@ -9,7 +9,8 @@ function App() {
   const [search,setSearch] = useState("chicken")
   return (
     <>
-<div className="flex flex-col h-full">
+      <div className="flex flex-col h-full">
+        
       <Navbar inputValue={ setSearch} />
         <div className="flex-1 pt-25 pb-20 h-full bg-[#FFF8E1]">
 
